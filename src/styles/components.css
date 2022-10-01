@@ -1,0 +1,129 @@
+p{
+    margin:0px !important
+}
+
+button:disabled,button[disabled]{
+    background-color: grey;
+    opacity:0.3
+}
+
+.reset-section{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.reset-button{
+    padding: 5px 15px;
+    height: 40px;
+    margin: 5px;
+    color: #ffff;
+    background-color: #00a278;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: 1em;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+.select-container{
+    display:flex;
+}
+
+.planet-select {
+  display:flex;
+  border-radius:5px;
+  margin:10px 0px;
+  position:relative
+}
+
+.planet-input{
+    padding:5px 10px;
+    max-width:150px;
+    font-size: 1.2rem;
+    border:1px solid #00a278;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+    border: 1px solid #00a278;
+    background-color:#ffff
+}
+
+.icon{
+   width:20px;
+   height:20px;
+}
+
+.option-container{
+    position: absolute;
+    border: 1px solid #00a278;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ffff;
+    z-index:3;
+}
+
+.no-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.planet-option{
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor:pointer
+}
+
+.planet-option:hover{
+    background-color: #00a3781a !important;
+    color:black !important 
+}
+
+.vehicle-option {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin:5px
+}
+
+.find-button{
+    padding: 5px 15px;
+    height: 40px;
+    margin: 5px;
+    color: #ffff;
+    background-color: #00a278;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: 1em;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+.loader-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.loader-img{
+    width:100px
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:950px){
+    .select-container{
+        flex-direction: column;
+        align-items:center;
+    }
+}
